@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@ body {
   background: linear-gradient(135deg, #ffb37a, #ff8a65, #f6c453);
 }
 
+/* Main card styling */
 .grade-card {
   width: 100%;
   max-width: 920px;
@@ -14,33 +16,39 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
+/* Graduation icon size */
 .icon-box {
   font-size: 52px;
   line-height: 1;
 }
 
+/* Main heading style */
 .main-title {
   color: #e85d04;
   font-size: 3.2rem;
   font-weight: 700;
 }
 
+/* Subtitle text style */
 .subtitle {
   color: #3e3e3e;
   font-size: 1.25rem;
 }
 
+/* Box used for explanation section */
 .info-box {
   background: linear-gradient(135deg, #fff3de, #ffe7c7);
   border-radius: 18px;
   padding: 24px;
 }
 
+/* Section headings  */
 .section-title {
   color: #d9480f;
   font-weight: 700;
 }
 
+/* Small cards */
 .scale-card {
   background-color: #ffffff;
   border: 1px solid #ffd8bf;
@@ -49,6 +57,7 @@ body {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
+/* List styling inside cards */
 .grade-list {
   padding-left: 22px;
   color: #333333;
@@ -58,7 +67,7 @@ body {
 .grade-list li {
   margin-bottom: 10px;
 }
-
+ 
 code {
   color: #d9480f;
   background-color: #fff4e6;
@@ -66,12 +75,14 @@ code {
   border-radius: 6px;
 }
 
+/* Footer text style */
 .footer-text {
   color: #7a4e2d;
   font-size: 16px;
   font-weight: 500;
 }
 
+/* Tablet and mobile responsive styles */
 @media (max-width: 768px) {
   .grade-card {
     border-radius: 20px;
@@ -100,16 +111,20 @@ code {
     padding: 18px;
   }
 
+
   .grade-list {
     font-size: 1rem;
   }
+
 
   .footer-text {
     font-size: 14px;
   }
 }
 
+/* Extra small screen responsive styles */
 @media (max-width: 400px) {
+ 
   .main-title {
     font-size: 1.8rem;
   }

@@ -1,5 +1,7 @@
+// Ask marks for Subject 1
 let subject1 = prompt("Enter marks for Subject 1 (0 to 100):");
 
+// Keep asking until valid input is entered
 while (
   subject1 === "" ||
   subject1 === null ||
@@ -10,10 +12,14 @@ while (
   alert("Invalid input! Please enter a number between 0 and 100.");
   subject1 = prompt("Enter marks for Subject 1 (0 to 100):");
 }
+
+// Convert input to number
 subject1 = Number(subject1);
 
+// Ask marks for Subject 2
 let subject2 = prompt("Enter marks for Subject 2 (0 to 100):");
 
+// Validate Subject 2 input
 while (
   subject2 === "" ||
   subject2 === null ||
@@ -24,10 +30,14 @@ while (
   alert("Invalid input! Please enter a number between 0 and 100.");
   subject2 = prompt("Enter marks for Subject 2 (0 to 100):");
 }
+
+// Convert input to number
 subject2 = Number(subject2);
 
+// Ask marks for Subject 3
 let subject3 = prompt("Enter marks for Subject 3 (0 to 100):");
 
+// Validate Subject 3 input
 while (
   subject3 === "" ||
   subject3 === null ||
@@ -38,10 +48,14 @@ while (
   alert("Invalid input! Please enter a number between 0 and 100.");
   subject3 = prompt("Enter marks for Subject 3 (0 to 100):");
 }
+
+// Convert input to number
 subject3 = Number(subject3);
 
+// Ask marks for Subject 4
 let subject4 = prompt("Enter marks for Subject 4 (0 to 100):");
 
+// Validate Subject 4 input
 while (
   subject4 === "" ||
   subject4 === null ||
@@ -52,10 +66,14 @@ while (
   alert("Invalid input! Please enter a number between 0 and 100.");
   subject4 = prompt("Enter marks for Subject 4 (0 to 100):");
 }
+
+// Convert input to number
 subject4 = Number(subject4);
 
+// Ask marks for Subject 5
 let subject5 = prompt("Enter marks for Subject 5 (0 to 100):");
 
+// Validate Subject 5 input
 while (
   subject5 === "" ||
   subject5 === null ||
@@ -66,13 +84,20 @@ while (
   alert("Invalid input! Please enter a number between 0 and 100.");
   subject5 = prompt("Enter marks for Subject 5 (0 to 100):");
 }
+
+// Convert input to number
 subject5 = Number(subject5);
 
+// Calculate total marks
 let total = subject1 + subject2 + subject3 + subject4 + subject5;
+
+// Calculate average marks
 let average = total / 5;
 
+// Variable to store final grade
 let grade;
 
+// Decide grade based on average
 if (average >= 90) {
   grade = "A+";
 } else if (average >= 80) {
@@ -87,6 +112,7 @@ if (average >= 90) {
   grade = "F";
 }
 
+// Show final result in alert box
 alert(
   "----- Grade Report -----" +
   "\nSubject 1: " + subject1 +
